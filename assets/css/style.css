@@ -1,0 +1,299 @@
+/* <! Header styles> */
+
+.header {
+    background-color: #ffffff;
+    border-bottom: solid;
+    border-color: #cccccc;
+    margin: 0;
+    height: 69px;
+}
+
+.your-name {
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #ffffff;
+    font-size: 24pt;
+    text-align: center;
+    height: 62px;
+    width: 220px; 
+    margin-left: 15%;
+    float: left;
+    overflow: auto;
+    padding-top: 9px;
+}
+
+
+
+    .about {
+    float: right;
+    position: absolute;
+    right: 34%;
+    margin-top: 2%;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #777777;
+}
+
+    .portfolio {
+    float: right;
+    position: absolute;
+    right: 29%;
+    margin-top: 2%;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #777777; 
+}
+
+    .contact {
+    float: right;
+    position: absolute;
+    right: 24%;
+    margin-top: 2%;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #777777;
+}
+
+
+/* <! Start of styling for body> */
+
+.container {
+    margin: 0 auto;
+    width: 796px;
+    margin-top: 3%;
+    border-style: solid;
+    border-color: #dddddd;
+    background-color: white;
+    overflow: auto;
+    z-index: 1;
+}
+
+
+#pic {
+    float: left;
+    margin: 2%;
+    overflow: auto;
+}
+
+html, body {
+    height: 100%
+}
+
+  body {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/polka-dots.png");
+    
+  }
+
+.container2 {
+    margin: 0 auto;
+    width: 796px;
+    height: 500px;
+    margin-top: 3%;
+    border-style: solid;
+    border-color: #dddddd;
+    background-color: white;
+    overflow: auto;
+    z-index: 1;
+}
+
+.container3 {
+    margin: 0 auto;
+    width: 700px;
+    height: 560px;
+    margin-top: 3%;
+    border-style: solid;
+    border-color: #dddddd;
+    background-color: white;
+    overflow: auto;
+    z-index: 1;
+}
+
+
+.title {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin: 2%;
+    border-bottom: solid;
+    border-color: #cccccc;
+   
+
+}
+.text {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #777777;
+    margin: 2%;
+}
+
+/* <!CSS for Contact page> */
+
+.text-2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #777777;
+    margin-left: 2%;
+    overflow: auto;
+
+}
+.text-bar {
+    width: 400px;
+    margin: 2%;
+    padding-bottom: 4px;
+    /* float: left; */
+    clear: right;
+}
+
+.text-bar:focus {
+    background-color: yellow;
+}
+
+.text-bar2 {
+    width: 400px;
+    margin: 2%;
+}
+
+.text-bar2:focus {
+    background-color: yellow;
+}
+
+.message-bar {
+    width: 400px;
+    height: 50px;
+    margin: 2%;
+}
+
+.message-bar:focus {
+    background-color: yellow;
+}
+
+.submit{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width:71px;
+    height: 30px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin: 2%;
+}
+
+/* <! Styling for Portfolio Page> */
+
+.img-cont-1 {
+    background-image: url("../images/ants.jpg");
+    height: 125px;
+    width: 200px;
+    float: left;
+    margin: 20px;
+}
+
+.img-cont-1:hover {
+    opacity: .5;
+}
+
+#hangman {
+    color: white;
+    background-color: #4aaaa5;
+    margin-top: 40%;
+    padding: 5px;
+    text-align: center;
+}
+
+.img-cont-2 {
+    background-image: url("../images/bread.jpg");
+    height: 125px;
+    width: 200px;
+    float: left;
+    margin: 20px;
+}
+
+.img-cont-2:hover {
+    opacity: .5;
+}
+
+#rpg-game {
+    color: white;
+    background-color: #4aaaa5;
+    margin-top: 40%;
+    padding: 5px;
+    text-align: center;
+
+}
+
+.img-cont-3 {
+    background-image: url("../images/city.jpg");
+    height: 125px;
+    width: 200px;
+    float: left;
+    margin: 20px;
+}
+
+.img-cont-3:hover {
+    opacity: .5;
+}
+
+#trivia {
+    color: white;
+    background-color: #4aaaa5;
+    margin-top: 40%;
+    padding: 5px;
+    text-align: center;
+
+}
+
+.img-cont-4 {
+    background-image: url("../images/headphone.jpg");
+    height: 125px;
+    width: 200px;
+    float: left;
+    margin: 20px;
+}
+
+.img-cont-4:hover {
+    opacity: .5;
+}
+
+#info {
+    color: white;
+    background-color: #4aaaa5;
+    margin-top: 40%;
+    padding: 5px;
+    text-align: center;
+
+}
+
+.img-cont-5 {
+    background-image: url("../images/face.jpg");
+    height: 125px;
+    width: 200px;
+    float: left;
+    margin: 20px;
+}
+
+.img-cont-5:hover {
+    opacity: .5;
+}
+
+
+#rock {
+    color: white;
+    background-color: #4aaaa5;
+    margin-top: 40%;
+    padding: 5px;
+    /* width: 200px; */
+    text-align: center;
+
+}
+
+ 
+ /* <! sticky footer> */
+
+  .content {
+    flex: 1 0 auto;
+  }
+  .footer {
+    flex-shrink: 0;
+    background-color: #666666;
+    text-align: center;
+    color: #ffffff;
+    padding: 15px;
+    clear: auto;
+    border-top: solid;
+    border-width: 10px;
+    border-color: #4aaaa5;
+  }
