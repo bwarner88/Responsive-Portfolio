@@ -1,13 +1,14 @@
 /* <! Header styles> */
 
-.header {
+
+
+/* .header {
     background-color: #ffffff;
     border-bottom: solid;
     border-color: #cccccc;
     margin: 0;
     height: 69px;
-}
-
+} */
 .your-name {
     background-color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -26,30 +27,34 @@
 
     .about {
     float: right;
-    position: absolute;
+    /* position: absolute; */
     right: 34%;
     margin-top: 2%;
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #777777;
+    margin-right: 30%;
+    margin: 3%;
 }
 
     .portfolio {
     float: right;
-    position: absolute;
+    /* position: absolute; */
     right: 29%;
     margin-top: 2%;
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #777777; 
+    margin: 3%;
 }
 
-    .contact {
+ .contact {
     float: right;
-    position: absolute;
+    /* position: absolute; */
     right: 24%;
     margin-top: 2%;
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #777777;
-}
+    margin: 3%;
+} 
 
 
 /* <! Start of styling for body> */
@@ -80,6 +85,7 @@ html, body {
     display: flex;
     flex-direction: column;
     background-image: url("../images/polka-dots.png");
+    margin: 0;
     
   }
 
@@ -136,7 +142,6 @@ html, body {
     width: 400px;
     margin: 2%;
     padding-bottom: 4px;
-    /* float: left; */
     clear: right;
 }
 
@@ -275,7 +280,6 @@ html, body {
     background-color: #4aaaa5;
     margin-top: 40%;
     padding: 5px;
-    /* width: 200px; */
     text-align: center;
 
 }
@@ -297,3 +301,147 @@ html, body {
     border-width: 10px;
     border-color: #4aaaa5;
   }
+
+  /* .row {
+      display: flex;
+      flex-wrap: wrap;
+  } */
+
+  * {
+    box-sizing: border-box;
+}
+ 
+.col-1 {
+    width: 50%;
+    background-color: #ffffff;
+    border-bottom: solid;
+    border-color: #cccccc;
+    margin: 0;
+    height: 69px;
+    float: left;
+  
+}
+
+
+.col-2 {
+    width: 50%;
+    background-color: #ffffff;
+    border-bottom: solid;
+    border-color: #cccccc;
+    margin: 0;
+    height: 69px;
+    float: left;
+    text-align: center;
+   
+}
+
+
+
+  @media screen and (max-width: 980px) {
+      /* .row { 
+          flex: 25%;
+    } */
+
+    
+  }
+
+  @media screen and (max-width: 768px) {
+    .row, .header {
+        flex-direction: column;
+        
+    }
+    
+    .container {
+        width: 100%;
+    }
+
+    .container2 {
+        width: 100%;
+    }
+
+    .container3 {
+        width: 100%;
+    }
+
+
+
+    .col-1 {
+        width: 100%;
+        background-color: #4aaaa5;
+        text-align: center;
+        
+    }
+
+    .col-2 { 
+        width: 100%;
+        background-color: #4aaaa5;
+        
+    }
+
+   .contact {
+       color: white;
+       float: left;
+       font-size: 20pt;
+       margin-left: 8%;
+   }
+
+   .about {
+        color: white;
+        float: left;
+        font-size: 20pt;
+        margin-left: 8%;
+        
+    }
+
+    .portfolio {
+        color: white;
+        float: left;
+        font-size: 20pt;
+        margin-left: 8%;
+        
+    }
+
+
+ 
+
+
+      
+      
+  }
+
+    
+
+  @media screen and (max-width: 640px) {
+
+    .container {
+    width: 100%;
+}
+
+.container3 {
+    width: 100%;
+}
+.col-1 {
+    width: 100%;
+}
+
+.col-2 { 
+    width: 100%;
+}
+
+.contact {
+   
+    font-size: 12pt;
+    
+}
+
+.about {
+     font-size: 12pt;
+     
+ }
+
+ .portfolio {
+     font-size: 12pt;
+     
+ }
+
+ }
